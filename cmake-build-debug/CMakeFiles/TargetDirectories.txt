@@ -1,0 +1,3 @@
+/home/zeevslobo/CLionProjects/Maman11/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/zeevslobo/CLionProjects/Maman11/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/zeevslobo/CLionProjects/Maman11/cmake-build-debug/CMakeFiles/Maman11.dir
