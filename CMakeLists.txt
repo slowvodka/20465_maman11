@@ -3,4 +3,4 @@ project(Maman11 C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(Maman11 main.c my_scalar.c)
+add_executable(Maman11 my_scalar.c)
