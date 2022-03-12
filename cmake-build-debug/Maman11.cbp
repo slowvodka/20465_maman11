@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/slowv/CLionProjects/20465_maman11/cmake-build-debug"/>
+				<Option working_dir="C:/Users/slowv/CLionProjects/20465_maman11_Q1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/Users/slowv/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/slowv/CLionProjects/20465_maman11/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/Users/slowv/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/slowv/CLionProjects/20465_maman11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/slowv/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/slowv/CLionProjects/20465_maman11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/slowv/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/slowv/CLionProjects/20465_maman11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/slowv/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/slowv/CLionProjects/20465_maman11_Q1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Users/slowv/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/slowv/CLionProjects/20465_maman11_Q1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/slowv/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/slowv/CLionProjects/20465_maman11_Q1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/slowv/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/slowv/CLionProjects/20465_maman11_Q1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Maman11">
-				<Option output="C:/Users/slowv/CLionProjects/20465_maman11/cmake-build-debug/Maman11.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/slowv/CLionProjects/20465_maman11/cmake-build-debug"/>
+				<Option output="C:/Users/slowv/CLionProjects/20465_maman11_Q1/cmake-build-debug/Maman11.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/slowv/CLionProjects/20465_maman11_Q1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -30,15 +30,15 @@
 					<Add directory="C:/Users/slowv/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/slowv/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/slowv/CLionProjects/20465_maman11/cmake-build-debug/Makefile&quot;  VERBOSE=1 Maman11"/>
-					<CompileFile command="C:/Users/slowv/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/slowv/CLionProjects/20465_maman11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/slowv/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/slowv/CLionProjects/20465_maman11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/slowv/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/slowv/CLionProjects/20465_maman11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/slowv/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/slowv/CLionProjects/20465_maman11_Q1/cmake-build-debug/Makefile&quot;  VERBOSE=1 Maman11"/>
+					<CompileFile command="C:/Users/slowv/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/slowv/CLionProjects/20465_maman11_Q1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/slowv/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/slowv/CLionProjects/20465_maman11_Q1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/slowv/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/slowv/CLionProjects/20465_maman11_Q1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Maman11/fast">
-				<Option output="C:/Users/slowv/CLionProjects/20465_maman11/cmake-build-debug/Maman11.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/slowv/CLionProjects/20465_maman11/cmake-build-debug"/>
+				<Option output="C:/Users/slowv/CLionProjects/20465_maman11_Q1/cmake-build-debug/Maman11.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/slowv/CLionProjects/20465_maman11_Q1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -49,40 +49,37 @@
 					<Add directory="C:/Users/slowv/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/slowv/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/slowv/CLionProjects/20465_maman11/cmake-build-debug/Makefile&quot;  VERBOSE=1 Maman11/fast"/>
-					<CompileFile command="C:/Users/slowv/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/slowv/CLionProjects/20465_maman11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/slowv/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/slowv/CLionProjects/20465_maman11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/slowv/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/slowv/CLionProjects/20465_maman11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/slowv/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/slowv/CLionProjects/20465_maman11_Q1/cmake-build-debug/Makefile&quot;  VERBOSE=1 Maman11/fast"/>
+					<CompileFile command="C:/Users/slowv/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/slowv/CLionProjects/20465_maman11_Q1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/slowv/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/slowv/CLionProjects/20465_maman11_Q1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/slowv/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/slowv/CLionProjects/20465_maman11_Q1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/slowv/CLionProjects/20465_maman11/cmake-build-debug"/>
+				<Option working_dir="C:/Users/slowv/CLionProjects/20465_maman11_Q1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/Users/slowv/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/slowv/CLionProjects/20465_maman11/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/Users/slowv/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/slowv/CLionProjects/20465_maman11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/slowv/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/slowv/CLionProjects/20465_maman11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/slowv/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/slowv/CLionProjects/20465_maman11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/slowv/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/slowv/CLionProjects/20465_maman11_Q1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Users/slowv/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/slowv/CLionProjects/20465_maman11_Q1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/slowv/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/slowv/CLionProjects/20465_maman11_Q1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/slowv/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/slowv/CLionProjects/20465_maman11_Q1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/slowv/CLionProjects/20465_maman11/cmake-build-debug"/>
+				<Option working_dir="C:/Users/slowv/CLionProjects/20465_maman11_Q1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/Users/slowv/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/slowv/CLionProjects/20465_maman11/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/Users/slowv/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/slowv/CLionProjects/20465_maman11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/slowv/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/slowv/CLionProjects/20465_maman11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/slowv/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/slowv/CLionProjects/20465_maman11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/slowv/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/slowv/CLionProjects/20465_maman11_Q1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Users/slowv/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/slowv/CLionProjects/20465_maman11_Q1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/slowv/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/slowv/CLionProjects/20465_maman11_Q1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/slowv/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/slowv/CLionProjects/20465_maman11_Q1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/slowv/CLionProjects/20465_maman11/main.c">
+		<Unit filename="C:/Users/slowv/CLionProjects/20465_maman11_Q1/my_scalar.c">
 			<Option target="Maman11"/>
 		</Unit>
-		<Unit filename="C:/Users/slowv/CLionProjects/20465_maman11/my_scalar.c">
-			<Option target="Maman11"/>
-		</Unit>
-		<Unit filename="C:/Users/slowv/CLionProjects/20465_maman11/CMakeLists.txt">
+		<Unit filename="C:/Users/slowv/CLionProjects/20465_maman11_Q1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

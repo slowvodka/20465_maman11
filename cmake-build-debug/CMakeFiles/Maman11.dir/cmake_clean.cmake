@@ -1,6 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Maman11.dir/main.c.obj"
-  "CMakeFiles/Maman11.dir/main.c.obj.d"
   "CMakeFiles/Maman11.dir/my_scalar.c.obj"
   "CMakeFiles/Maman11.dir/my_scalar.c.obj.d"
   "Maman11.exe"

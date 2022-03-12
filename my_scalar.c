@@ -1,59 +1,47 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 #define MAX_SIZE 100
+#define MIN_SIZE 5
 
-int getSizeOfArray();
+int getLenOfArray();
 int minInt(int num1, int num2);
 int * getIntArray(int * array,int length);
 int product_scalar(int vectorA[], int vectorB[], int arr_length);
-void printIntArray(int * array, int length)
-{
-    int i;
-    for(i=0;i<length;i=i+1)
-        printf("%d)%d \n",i,array[i]);
-}
-void printMetadata(int size_of_arrA,int size_of_arrB,int * vectorA, int * vectorB, int sum)
-{
-    int i;
-    printf("\n\n");
-    printf("Size of array A: %d\n",size_of_arrA);
-    printf("Elements of array A:\n");
-    printIntArray(vectorA,size_of_arrA);
-    printf("\n");
-    printf("Size of array B: %d\n",size_of_arrB);
-    printf("Elements of array B:\n");
-    printIntArray(vectorB,size_of_arrB);
-
-    printf("\nThe scalar product is: %d\n",sum);
-}
+void printIntArray(int * array, int length);
+void printMetadata(int size_of_arrA,int size_of_arrB,int * vectorA, int * vectorB, int sum);
 
 void main()
 {
+    /**
+     * function gets size and int array from the user for two arrays
+     * calculated the scalar product and prints in the consule with
+     * all the vector data
+     */
     //initialize
-    int i; //delete
-    int size_of_arrA,size_of_arrB,size_of_arr,sum = 0;
+    int size_of_arrA,size_of_arrB,size_of_arr,product;
     int vectorA[MAX_SIZE], vectorB[MAX_SIZE];
 
     //body
-    size_of_arrA = getSizeOfArray();
+    size_of_arrA = getLenOfArray();
     getIntArray(vectorA,size_of_arrA);
-    size_of_arrB = getSizeOfArray();
+    size_of_arrB = getLenOfArray();
     getIntArray(vectorB,size_of_arrB);
 
     size_of_arr = minInt(size_of_arrA,size_of_arrB);
 
-    sum = product_scalar(vectorA,vectorB,size_of_arr);
+    product = product_scalar(vectorA,vectorB,size_of_arr);
 
-    printMetadata(size_of_arrA,size_of_arrB,vectorA,vectorB,sum);
+    //just prints
+    printMetadata(size_of_arrA,size_of_arrB,vectorA,vectorB,product);
 
 }
 
-int getSizeOfArray()
+int getLenOfArray()
 {
     /**
      * function gets a size of the arry from user
      * if the size is bigger them max defined size, returns default max size
+     * if size is negative or zero, returns default min size
      * @return int, size of array
      */
     int size;
@@ -62,6 +50,8 @@ int getSizeOfArray()
 
     if(size > MAX_SIZE)
         size = MAX_SIZE;
+    if(size <=0)
+        size = MIN_SIZE;
     return size;
 
 }
@@ -116,3 +106,35 @@ int product_scalar(int vectorA[], int vectorB[], int arr_length)
     return scalar_prod;
 }
 
+void printIntArray(int * array, int length)
+{
+    /**
+     * function prints an array of ints
+     * @param array - int array
+     * @param length - array length
+     */
+    int i;
+    for(i=0;i<length;i=i+1)
+        printf("%d)%d \n",i,array[i]);
+}
+void printMetadata(int size_of_arrA,int size_of_arrB,int * vectorA, int * vectorB, int product)
+{
+    /**
+     * function that prints all the data related to this exercise
+     * @param size_of_arrA - int, size of array1
+     * @param size_of_arrB - int, size of array2
+     * @param vectorA - int array1
+     * @param vectorB - int array2
+     * @param product - int, scalar product of array1 and array2
+     */
+    printf("\n\n");
+    printf("Size of array A: %d\n",size_of_arrA);
+    printf("Elements of array A:\n");
+    printIntArray(vectorA,size_of_arrA);
+    printf("\n");
+    printf("Size of array B: %d\n",size_of_arrB);
+    printf("Elements of array B:\n");
+    printIntArray(vectorB,size_of_arrB);
+
+    printf("\nThe scalar product is: %d\n",product);
+}

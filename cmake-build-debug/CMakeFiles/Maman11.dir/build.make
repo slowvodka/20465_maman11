@@ -52,10 +52,10 @@ RM = C:\Users\slowv\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.6777.58\
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\slowv\CLionProjects\20465_maman11
+CMAKE_SOURCE_DIR = C:\Users\slowv\CLionProjects\20465_maman11_Q1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\slowv\CLionProjects\20465_maman11\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\slowv\CLionProjects\20465_maman11_Q1\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Maman11.dir/depend.make
@@ -68,49 +68,33 @@ include CMakeFiles/Maman11.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Maman11.dir/flags.make
 
-CMakeFiles/Maman11.dir/main.c.obj: CMakeFiles/Maman11.dir/flags.make
-CMakeFiles/Maman11.dir/main.c.obj: ../main.c
-CMakeFiles/Maman11.dir/main.c.obj: CMakeFiles/Maman11.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\slowv\CLionProjects\20465_maman11\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Maman11.dir/main.c.obj"
-	C:\Users\slowv\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.6777.58\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Maman11.dir/main.c.obj -MF CMakeFiles\Maman11.dir\main.c.obj.d -o CMakeFiles\Maman11.dir\main.c.obj -c C:\Users\slowv\CLionProjects\20465_maman11\main.c
-
-CMakeFiles/Maman11.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Maman11.dir/main.c.i"
-	C:\Users\slowv\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.6777.58\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\slowv\CLionProjects\20465_maman11\main.c > CMakeFiles\Maman11.dir\main.c.i
-
-CMakeFiles/Maman11.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Maman11.dir/main.c.s"
-	C:\Users\slowv\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.6777.58\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\slowv\CLionProjects\20465_maman11\main.c -o CMakeFiles\Maman11.dir\main.c.s
-
 CMakeFiles/Maman11.dir/my_scalar.c.obj: CMakeFiles/Maman11.dir/flags.make
 CMakeFiles/Maman11.dir/my_scalar.c.obj: ../my_scalar.c
 CMakeFiles/Maman11.dir/my_scalar.c.obj: CMakeFiles/Maman11.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\slowv\CLionProjects\20465_maman11\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Maman11.dir/my_scalar.c.obj"
-	C:\Users\slowv\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.6777.58\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Maman11.dir/my_scalar.c.obj -MF CMakeFiles\Maman11.dir\my_scalar.c.obj.d -o CMakeFiles\Maman11.dir\my_scalar.c.obj -c C:\Users\slowv\CLionProjects\20465_maman11\my_scalar.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\slowv\CLionProjects\20465_maman11_Q1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Maman11.dir/my_scalar.c.obj"
+	C:\Users\slowv\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.6777.58\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Maman11.dir/my_scalar.c.obj -MF CMakeFiles\Maman11.dir\my_scalar.c.obj.d -o CMakeFiles\Maman11.dir\my_scalar.c.obj -c C:\Users\slowv\CLionProjects\20465_maman11_Q1\my_scalar.c
 
 CMakeFiles/Maman11.dir/my_scalar.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Maman11.dir/my_scalar.c.i"
-	C:\Users\slowv\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.6777.58\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\slowv\CLionProjects\20465_maman11\my_scalar.c > CMakeFiles\Maman11.dir\my_scalar.c.i
+	C:\Users\slowv\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.6777.58\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\slowv\CLionProjects\20465_maman11_Q1\my_scalar.c > CMakeFiles\Maman11.dir\my_scalar.c.i
 
 CMakeFiles/Maman11.dir/my_scalar.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Maman11.dir/my_scalar.c.s"
-	C:\Users\slowv\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.6777.58\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\slowv\CLionProjects\20465_maman11\my_scalar.c -o CMakeFiles\Maman11.dir\my_scalar.c.s
+	C:\Users\slowv\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.6777.58\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\slowv\CLionProjects\20465_maman11_Q1\my_scalar.c -o CMakeFiles\Maman11.dir\my_scalar.c.s
 
 # Object files for target Maman11
 Maman11_OBJECTS = \
-"CMakeFiles/Maman11.dir/main.c.obj" \
 "CMakeFiles/Maman11.dir/my_scalar.c.obj"
 
 # External object files for target Maman11
 Maman11_EXTERNAL_OBJECTS =
 
-Maman11.exe: CMakeFiles/Maman11.dir/main.c.obj
 Maman11.exe: CMakeFiles/Maman11.dir/my_scalar.c.obj
 Maman11.exe: CMakeFiles/Maman11.dir/build.make
 Maman11.exe: CMakeFiles/Maman11.dir/linklibs.rsp
 Maman11.exe: CMakeFiles/Maman11.dir/objects1.rsp
 Maman11.exe: CMakeFiles/Maman11.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\slowv\CLionProjects\20465_maman11\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable Maman11.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\slowv\CLionProjects\20465_maman11_Q1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Maman11.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Maman11.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -122,6 +106,6 @@ CMakeFiles/Maman11.dir/clean:
 .PHONY : CMakeFiles/Maman11.dir/clean
 
 CMakeFiles/Maman11.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\slowv\CLionProjects\20465_maman11 C:\Users\slowv\CLionProjects\20465_maman11 C:\Users\slowv\CLionProjects\20465_maman11\cmake-build-debug C:\Users\slowv\CLionProjects\20465_maman11\cmake-build-debug C:\Users\slowv\CLionProjects\20465_maman11\cmake-build-debug\CMakeFiles\Maman11.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\slowv\CLionProjects\20465_maman11_Q1 C:\Users\slowv\CLionProjects\20465_maman11_Q1 C:\Users\slowv\CLionProjects\20465_maman11_Q1\cmake-build-debug C:\Users\slowv\CLionProjects\20465_maman11_Q1\cmake-build-debug C:\Users\slowv\CLionProjects\20465_maman11_Q1\cmake-build-debug\CMakeFiles\Maman11.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Maman11.dir/depend
 

@@ -1,4 +1,4 @@
-C:\Users\slowv\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.6777.58\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\slowv\CLionProjects\20465_maman11
+C:\Users\slowv\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.6777.58\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\slowv\CLionProjects\20465_maman11_Q1
 -- The C compiler identification is GNU 11.2.0
 -- Detecting C compiler ABI info
 -- Detecting C compiler ABI info - done
@@ -7,4 +7,4 @@ C:\Users\slowv\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.6777.58\bin\c
 -- Detecting C compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/slowv/CLionProjects/20465_maman11/cmake-build-debug
+-- Build files have been written to: C:/Users/slowv/CLionProjects/20465_maman11_Q1/cmake-build-debug
