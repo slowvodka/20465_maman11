@@ -1,0 +1,3 @@
+C:\Users\slowv\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.6777.58\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\Maman11.dir/objects.a
+C:\Users\slowv\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.6777.58\bin\mingw\bin\ar.exe qc CMakeFiles\Maman11.dir/objects.a @CMakeFiles\Maman11.dir\objects1.rsp
+C:\Users\slowv\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.6777.58\bin\mingw\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\Maman11.dir/objects.a -Wl,--no-whole-archive -o Maman11.exe -Wl,--out-implib,libMaman11.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Maman11.dir\linklibs.rsp
