@@ -36,7 +36,7 @@ int getLenOfArray()
 {
     /**
      * function gets a size of the array from user
-     * if the size is bigger them max defined size, returns default max size
+     * if the size is bigger then max defined size, returns default max size
      * if size is negative or zero, returns default min size
      * @return int, size of array
      */
