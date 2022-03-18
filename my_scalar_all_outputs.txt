@@ -1,5 +1,6 @@
 test1 output:
-Size of array A: 5
+
+Size of array: 5
 Elements of array A:
 0)1
 1)1
@@ -7,7 +8,6 @@ Elements of array A:
 3)1
 4)1
 
-Size of array B: 5
 Elements of array B:
 0)1
 1)1
@@ -18,7 +18,8 @@ Elements of array B:
 The scalar product is: 5
 
 test2 output:
-Size of array A: 5
+
+Size of array: 5
 Elements of array A:
 0)1
 1)2
@@ -26,33 +27,32 @@ Elements of array A:
 3)4
 4)5
 
-Size of array B: 3
 Elements of array B:
-0)1
-1)2
-2)3
+0)3
+1)1
+2)2
+3)3
+4)3
 
-The scalar product is: 14
+The scalar product is: 38
 
 test3 output:
-Size of array A: 3
+Size of array: 3
 Elements of array A:
 0)1
 1)2
-2)3
+2)0
 
-Size of array B: 5
 Elements of array B:
-0)1
-1)2
-2)3
-3)4
-4)5
+0)-1
+1)-2
+2)5
 
-The scalar product is: 14
+The scalar product is: -5
+
 
 test4 output:
-Size of array A: 5
+Size of array: 5
 Elements of array A:
 0)-1
 1)1
@@ -60,7 +60,6 @@ Elements of array A:
 3)-7
 4)11
 
-Size of array B: 5
 Elements of array B:
 0)10
 1)9
@@ -71,7 +70,8 @@ Elements of array B:
 The scalar product is: 40
 
 test5 output:
-Size of array A: 5
+
+Size of array: 5
 Elements of array A:
 0)-1
 1)-2
@@ -79,10 +79,11 @@ Elements of array A:
 3)-4
 4)-5
 
-Size of array B: 5
 Elements of array B:
 0)-1
 1)-2
 2)-3
 3)-4
 4)-5
+
+The scalar product is: 55

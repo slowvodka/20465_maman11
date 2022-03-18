@@ -4,11 +4,10 @@
 #define MIN_SIZE 5
 
 int getLenOfArray();
-int minInt(int num1, int num2);
 int * getIntArray(int * array,int length);
 int product_scalar(int vectorA[], int vectorB[], int arr_length);
 void printIntArray(int * array, int length);
-void printMetadata(int size_of_arrA,int size_of_arrB,int * vectorA, int * vectorB, int sum);
+void printMetadata(int size_of_arr,int * vectorA, int * vectorB, int sum);
 
 void main()
 {
@@ -18,21 +17,18 @@ void main()
      * all the vector data
      */
     //initialize
-    int size_of_arrA,size_of_arrB,size_of_arr,product;
+    int size_of_arr,product;
     int vectorA[MAX_SIZE], vectorB[MAX_SIZE];
 
     //body
-    size_of_arrA = getLenOfArray();
-    getIntArray(vectorA,size_of_arrA);
-    size_of_arrB = getLenOfArray();
-    getIntArray(vectorB,size_of_arrB);
-
-    size_of_arr = minInt(size_of_arrA,size_of_arrB);
+    size_of_arr = getLenOfArray();
+    getIntArray(vectorA,size_of_arr);
+    getIntArray(vectorB,size_of_arr);
 
     product = product_scalar(vectorA,vectorB,size_of_arr);
 
     //just prints
-    printMetadata(size_of_arrA,size_of_arrB,vectorA,vectorB,product);
+    printMetadata(size_of_arr,vectorA,vectorB,product);
 
 }
 
@@ -117,24 +113,22 @@ void printIntArray(int * array, int length)
     for(i=0;i<length;i=i+1)
         printf("%d)%d \n",i,array[i]);
 }
-void printMetadata(int size_of_arrA,int size_of_arrB,int * vectorA, int * vectorB, int product)
+void printMetadata(int size_of_arr,int * vectorA, int * vectorB, int product)
 {
     /**
      * function that prints all the data related to this exercise
-     * @param size_of_arrA - int, size of array1
-     * @param size_of_arrB - int, size of array2
+     * @param size_of_arr - int, size of array2
      * @param vectorA - int array1
      * @param vectorB - int array2
      * @param product - int, scalar product of array1 and array2
      */
     printf("\n\n");
-    printf("Size of array A: %d\n",size_of_arrA);
+    printf("Size of array: %d\n",size_of_arr);
     printf("Elements of array A:\n");
-    printIntArray(vectorA,size_of_arrA);
+    printIntArray(vectorA,size_of_arr);
     printf("\n");
-    printf("Size of array B: %d\n",size_of_arrB);
     printf("Elements of array B:\n");
-    printIntArray(vectorB,size_of_arrB);
+    printIntArray(vectorB,size_of_arr);
 
     printf("\nThe scalar product is: %d\n",product);
 }
