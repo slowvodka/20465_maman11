@@ -13,7 +13,7 @@ void main()
 {
     /**
      * function gets size and int array from the user for two arrays
-     * calculated the scalar product and prints in the consule with
+     * calculated the scalar product and prints in the console with
      * all the vector data
      */
     //initialize
@@ -35,7 +35,7 @@ void main()
 int getLenOfArray()
 {
     /**
-     * function gets a size of the arry from user
+     * function gets a size of the array from user
      * if the size is bigger them max defined size, returns default max size
      * if size is negative or zero, returns default min size
      * @return int, size of array
