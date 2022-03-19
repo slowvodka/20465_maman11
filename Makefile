@@ -1,4 +1,5 @@
-all: my_scalar.c
+my_scalar: my_scalar.c
+	gcc -g -Wall -o my_scalar my_scalar.c
 
-one:
-	gcc my_scalar.c # Runs first
+  clean:
+	  $(RM) my_scalar
